@@ -48,8 +48,11 @@ public class PracticaExamen1 {
         }catch(Exception e){
             System.out.println("Datos incorrectos");
         }
+        
+        
         String heladoUSER;
         int cantidad;
+        
         ArrayList<String> helados = new ArrayList<>();
         System.out.println("Ingrese cuantos helados quiere agregsar");
         cantidad = n.nextInt(); 
@@ -65,7 +68,9 @@ public class PracticaExamen1 {
             System.out.println(h);
             
             if(h.equals("vainilla")){
+                
                 System.out.println("este es el helado de vainilla");
+                System.out.println("");
             }
         }
     }
