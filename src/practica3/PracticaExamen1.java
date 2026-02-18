@@ -68,11 +68,11 @@ public class PracticaExamen1 {
             System.out.println(h);
             
             if(h.equals("vainilla")){
-                
                 System.out.println("este es el helado de vainilla");
-                System.out.println("");
             }
         }
+        System.out.println((cantidad>3) ? "hay mas de 3" : "hay menos de 3");
+        
     }
     public static void coso(){
         boolean volver=true;
@@ -87,7 +87,5 @@ public class PracticaExamen1 {
             }
         }
     }
-    public static void foreach(){
-        
-    }
+    
 }
